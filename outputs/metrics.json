@@ -1,0 +1,23 @@
+{
+  "image": "giraffe.png",
+  "processed_height": 134,
+  "processed_width": 200,
+  "pixels_clustered": 26800,
+  "input_unique_colors": 20992,
+  "kmeans": {
+    "requested_clusters": 14,
+    "clusters_found": 14,
+    "inertia": 12418111.68,
+    "iterations_best_run": 110,
+    "initializations": 5
+  },
+  "dbscan": {
+    "features": "normalized RGB + normalized x/y coordinates",
+    "eps": 0.04,
+    "min_samples": 15,
+    "clusters_found": 96,
+    "core_samples": 12497,
+    "noise_pixels": 10617,
+    "noise_pct": 39.62
+  }
+}
